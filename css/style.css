@@ -9,6 +9,16 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'BodoniFLF-Bold';
+    src:url('../fonts/BodoniFLF-Bold.ttf.woff') format('woff'),
+        url('../fonts/BodoniFLF-Bold.ttf.svg#BodoniFLF-Bold') format('svg'),
+        url('../fonts/BodoniFLF-Bold.ttf.eot'),
+        url('../fonts/BodoniFLF-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 /*
 h1 {
 font-family: 'Harlow-Solid-Italic';
