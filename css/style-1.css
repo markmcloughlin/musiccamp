@@ -1,0 +1,195 @@
+
+@font-face {
+    font-family: 'Harlow-Solid-Italic';
+    src:url('../fonts/Harlow-Solid-Italic.ttf.woff') format('woff'),
+        url('../fonts/Harlow-Solid-Italic.ttf.svg#Harlow-Solid-Italic') format('svg'),
+        url('../fonts/Harlow-Solid-Italic.ttf.eot'),
+        url('../fonts/Harlow-Solid-Italic.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'BodoniFLF-Bold';
+    src:url('../fonts/BodoniFLF-Bold.ttf.woff') format('woff'),
+        url('../fonts/BodoniFLF-Bold.ttf.svg#BodoniFLF-Bold') format('svg'),
+        url('../fonts/BodoniFLF-Bold.ttf.eot'),
+        url('../fonts/BodoniFLF-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+h1 {
+font-family: 'Harlow-Solid-Italic';
+}
+*/
+
+
+
+.main {
+    width: 70%; 
+    margin-left:auto; 
+    margin-right: auto;
+    font-size: 1em;
+    min-width: 800px;
+}
+
+.bottom {
+    clear: both; 
+    min-height: 25px;
+}
+
+.town {
+    text-align: center; 
+    font-family:'Harlow-Solid-Italic'; 
+    color: red; 
+    font-size: 6vw;
+}
+
+.title-outer {
+    text-align: center; 
+    font-family:'BodoniFLF-Bold'; 
+    color: darkcyan; 
+    font-size: 10vw;
+    /* font-size: calc(112.5% + 10vw) */
+}
+
+.title-inner {
+    text-align: center; 
+    font-family:'BodoniFLF-Bold'; 
+    color: darkblue; 
+    font-size: 16vw;
+    line-height: .1em
+}
+
+.overview {
+    text-align: center;
+
+}
+
+.details {
+    padding-top: 2em;
+}
+
+.program-container {
+    width: 45%; 
+    float:left;
+}
+
+.program-content {
+    text-align: center;
+}
+
+.program-title {
+    font-family:'BodoniFLF-Bold'; 
+    font-size: 1.5em; 
+    color: darkblue; 
+    margin:0em;
+}
+
+.program-details-table {
+    width:100%; 
+    font-family:'Arial'; 
+    font-weight: bold; 
+    border-spacing: 0em;
+}
+
+.program-details-line-label {
+    padding: 10px; 
+    background-color: darkcyan; 
+    color: white
+}
+
+.program-details-line-info {
+    padding: 10px; 
+    background-color: silver; 
+    color: darkblue;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.program-details-note {
+    font-size:.5em;
+}
+
+.camp-info-container {
+    width: 50%; 
+    float:right;
+}
+
+.camp-instructor-picture-container {
+    text-align: center;
+}
+
+.camp-instructor-picture {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.camp-instructor-bio {
+    text-align: center;
+}
+
+.camp-instructor-qualifications {
+    color:gray; 
+    font-size: smaller;
+}
+
+
+.registration-button {
+    margin-top: 1.2em;    
+
+    background-color: darkblue;
+    color: white;  
+
+    line-height: 2em;
+    /*font-family:'BodoniFLF-Bold'; */
+    font-family:'Arial';     
+    width:75%;
+    margin-left:auto; 
+    margin-right: auto;
+    text-align: center;   
+    /* border-radius: 4px; */
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s; 
+    border: 4px solid white; 
+}
+
+.registration-button:hover {
+    border: 4px solid silver;  
+}
+
+a:link {
+        text-decoration: none;  
+}
+
+.registration-button-label {
+    width:100%;
+    background-color: darkblue;
+    color: white;  
+}
+
+.contact-details-table {
+    padding-top: 1.2em;
+    width:100%; 
+    /*font-family:'Arial'; */
+    /*font-weight: bold; */
+    border-spacing: 0em;
+    font-size: smaller;
+}
+
+.contact-details-label {
+    padding: 10px; 
+    /*background-color: darkcyan; 
+    color: white; 
+    text-align: center*/
+}
+
+.contact-details-info {
+        padding: 10px;
+        border-left: 1px solid black; 
+        /*background-color: silver; 
+        color: darkblue; 
+        text-align: left;*/
+}
