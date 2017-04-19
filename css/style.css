@@ -25,10 +25,14 @@ font-family: 'Harlow-Solid-Italic';
 }
 */
 
+
+
 .main {
-    width: 50%; 
+    width: 70%; 
     margin-left:auto; 
     margin-right: auto;
+    font-size: 1.5em;
+    min-width: 800px;
 }
 
 .bottom {
@@ -40,26 +44,28 @@ font-family: 'Harlow-Solid-Italic';
     text-align: center; 
     font-family:'Harlow-Solid-Italic'; 
     color: red; 
-    font-size: 3em
+    font-size: 6vw;
 }
 
 .title-outer {
     text-align: center; 
     font-family:'BodoniFLF-Bold'; 
     color: darkcyan; 
-    font-size: 6em
+    font-size: 10vw;
+    /* font-size: calc(112.5% + 10vw) */
 }
 
 .title-inner {
     text-align: center; 
     font-family:'BodoniFLF-Bold'; 
     color: darkblue; 
-    font-size: 9em; 
+    font-size: 16vw;
     line-height: .1em
 }
 
 .overview {
     text-align: center;
+
 }
 
 .details {
